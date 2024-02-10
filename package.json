@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "web:static": "expo export --platform web && npx serve dist"
   },
   "jest": {
     "preset": "jest-expo"
